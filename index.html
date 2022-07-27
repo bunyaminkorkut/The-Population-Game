@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Countries</title>
+</head>
+<body>
+    <section class="containerr">
+        <div class="image"> <div class="blur"></div></div>
+        <div class="info"><h1 class="title">Welcome to The Population Game</h1>
+        <div><p class="rules">You will see two country when you click on the start button. The aim is to choose the country with the highest population among these two countries.</p></div></div>
+        <button class="btn btn-danger start btn-lg" style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 1.75rem; --bs-btn-font-size: 2.5rem;">Start</button>
+    </section>
+    <section id="all" class="countrie displayN">
+        <div class="correct" style="display: flex; justify-content:center">
+            <span class="best">Best Score:</span>
+            <span class="score">Score: 0</span>
+            <button class="buttonNext btn btn-primary btn-lg  ">Next</button>
+            <button class="buttonRestart btn btn-primary btn-lg  ">Restart</button>
+        </div>
+        <div class="countries"></div>
+        
+    </section>
+    
+
+
+
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
